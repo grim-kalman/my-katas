@@ -1,4 +1,4 @@
-public class Main {
+public class RowSumOddNumbers {
 
     /*
     Given the triangle of consecutive odd numbers:

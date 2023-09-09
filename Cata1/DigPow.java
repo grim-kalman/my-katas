@@ -1,4 +1,4 @@
-public class Main {
+public class DigPow {
 
     /*
     Some numbers have funny properties. For example:
