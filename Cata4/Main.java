@@ -1,32 +1,26 @@
-import java.util.Arrays;
-
-import static java.util.Arrays.*;
-
 public class Main {
 
     /*
-    In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+    Given the triangle of consecutive odd numbers:
 
-    Examples
-    highAndLow("1 2 3 4 5")  // return "5 1"
-    highAndLow("1 2 -3 4 5") // return "5 -3"
-    highAndLow("1 9 3 4 -5") // return "9 -5"
-    Notes
-    All numbers are valid Int32, no need to validate them.
-    There will always be at least one number in the input string.
-    Output string must be two numbers separated by a single space, and highest number is first.
+    1.              1
+    2.           3     5
+    3.        7     9    11
+    4.    13    15    17    19
+    5. 21    23    25    27    29
+    ...
+    Calculate the sum of the numbers in the nth row of this triangle (starting at index 1) e.g.: (Input --> Output)
+
+    1 -->  1
+    2 --> 3 + 5 = 8
      */
-    public static String highAndLow(String numbers) {
-        String[] numberStringArray = numbers.split(" ");
-
-        int[] numbersArray = new int[numberStringArray.length];
-        for (int i = 0; i < numberStringArray.length; i++) {
-            numbersArray[i] = Integer.parseInt(numberStringArray[i]);
+    public static int rowSumOddNumbers(int n) {
+        int firstNumberInRow = (int) Math.pow(n, 2) - (n - 1); // First number in the n:th row
+        int sum = firstNumberInRow;
+        for (int i = 1, nextNumberInRow = firstNumberInRow + 2; i<n; i++, nextNumberInRow += 2) {
+            sum += nextNumberInRow;
         }
-
-        Arrays.sort(numbersArray);
-
-        return Integer.toString(numbersArray[numbersArray.length - 1]) + " " + Integer.toString(numbersArray[0]);
+        return sum;
     }
 
     public static void main(String[] args) {
