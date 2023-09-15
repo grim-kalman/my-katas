@@ -1,3 +1,5 @@
+package Math.FindNextSquare;
+
 public class FindNextSquare {
 
     /*
@@ -24,3 +26,4 @@ public class FindNextSquare {
         System.out.println(findNextSquare(625));  // Should return 676
         System.out.println(findNextSquare(114));  // Should return -1
     }
+}

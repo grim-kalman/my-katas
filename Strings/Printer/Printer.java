@@ -1,3 +1,5 @@
+package Strings.Printer;
+
 public class Printer {
 
     /*

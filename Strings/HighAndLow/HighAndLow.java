@@ -1,3 +1,5 @@
+package Strings.HighAndLow;
+
 import java.util.Arrays;
 
 public class HighAndLow {

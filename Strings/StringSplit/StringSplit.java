@@ -1,15 +1,15 @@
+package Strings.StringSplit;
+
 public class StringSplit {
 
-    /*
-    Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd
-    number of characters then it should replace the missing second character of the final pair with an underscore ('_').
+        /*
+        Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd
+        number of characters then it should replace the missing second character of the final pair with an underscore ('_').
 
-    Examples:(Input --> Output)
-    'abc' --> ['ab', 'c_']
-    'abcdef' --> ['ab', 'cd', 'ef']
-    */
-    public class StringSplit {
-
+        Examples:(Input --> Output)
+        'abc' --> ['ab', 'c_']
+        'abcdef' --> ['ab', 'cd', 'ef']
+        */
         public static String[] solution(String s) {
             int stringLength = s.length();
             int arrayLength = (stringLength % 2 == 0) ? stringLength / 2 : (stringLength / 2) + 1;
@@ -43,5 +43,4 @@ public class StringSplit {
                 System.out.println(word);
             }
         }
-    }
 }
