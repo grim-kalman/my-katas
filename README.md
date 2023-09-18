@@ -69,7 +69,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 
 ### MexicanWave
 - **Date Completed**: 2023-sep-18
-- **Link to Kata**: [CodeWars - MexicanWave](https://www.codewars.com/kata/5552101f47fc5178b1000050)
+- **Link to Kata**: [CodeWars - MexicanWave](https://www.codewars.com/kata/58f5c63f1e26ecda7e000029)
 
 ### Order
 - **Date Completed**: 2023-sep-07
