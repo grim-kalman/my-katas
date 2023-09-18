@@ -16,6 +16,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
   - [HighAndLow](#highandlow)
   - [JadenCase](#jadencase)
   - [LoneChar](#lonechar)
+  - [MexicanWave](#mexicanwave)
   - [Order](#order)
   - [Printer](#printer)
   - [StringSplit](#stringsplit)
@@ -65,6 +66,10 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 ### LoneChar
 - **Date Completed**: Completed 2 days ago.
 - **Link to Kata**: [CodeWars - LoneChar](#)
+
+### MexicanWave
+- **Date Completed**: 2023-sep-18
+- **Link to Kata**: [CodeWars - MexicanWave](https://www.codewars.com/kata/5552101f47fc5178b1000050)
 
 ### Order
 - **Date Completed**: 2023-sep-07
