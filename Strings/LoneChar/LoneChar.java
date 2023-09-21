@@ -1,8 +1,6 @@
 package Strings.LoneChar;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class LoneChar {
@@ -28,13 +26,21 @@ public class LoneChar {
     public static char[] loneliest(String string) {
         String[] trimmedStringArray = string.trim().split("");
 
-        Map<String, Integer> result;
+        ArrayList<Integer> result = new ArrayList<>();
+        int count = 0;
+        int previousCount = 0;
         for (String character : trimmedStringArray) {
-            // Reminder: do the loop case first then refactor to stream array for practice
+            if (!character.equals(" ")) {
+                result.add(count + previousCount);
+                previousCount = count;
+                count = 0;
+            } else {
+                count++;
+            }
         }
 
-
-        return null;
+        System.out.printf(result.toString());
+        return new char[0];
     }
 
     public static void main(String[] args) {
