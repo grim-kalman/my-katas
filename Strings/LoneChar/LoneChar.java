@@ -1,7 +1,6 @@
 package Strings.LoneChar;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 public class LoneChar {
 
@@ -25,22 +24,30 @@ public class LoneChar {
     */
     public static char[] loneliest(String string) {
         String[] trimmedStringArray = string.trim().split("");
-
-        ArrayList<Integer> result = new ArrayList<>();
-        int count = 0;
-        int previousCount = 0;
-        for (String character : trimmedStringArray) {
-            if (!character.equals(" ")) {
-                result.add(count + previousCount);
-                previousCount = count;
-                count = 0;
-            } else {
-                count++;
+        int forwardCount = 0;
+        int backwardCount = 0;
+        Map<String, Integer> characterSpaces = new HashMap<>();
+        for (int i = 0; i < trimmedStringArray.length; i++) {
+            if (trimmedStringArray[i].matches("[a-z]")) {
+                for (int j = i + 1; j < trimmedStringArray.length && trimmedStringArray[j].equals(" "); j++) {
+                    forwardCount++;
+                }
+                for (int j = i - 1; j >= 0 && trimmedStringArray[j].equals(" "); j--) {
+                    backwardCount++;
+                }
+                characterSpaces.put(trimmedStringArray[i], forwardCount + backwardCount);
+                forwardCount = 0;
+                backwardCount = 0;
             }
         }
 
-        System.out.printf(result.toString());
-        return new char[0];
+        char[] lonliestChars = new char[];
+
+        for (int spaces : characterSpaces.values()) {
+
+        }
+
+        return null;
     }
 
     public static void main(String[] args) {
