@@ -64,7 +64,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 - **Link to Kata**: [CodeWars - JadenCase](https://www.codewars.com/kata/5390bac347d09b7da40006f6)
 
 ### LoneChar
-- **Date Completed**: Completed 2 days ago.
+- **Date Completed**: 2023-sep-27.
 - **Link to Kata**: [CodeWars - LoneChar](https://www.codewars.com/kata/5f885fa9f130ea00207c7dc8)
 
 ### MexicanWave
