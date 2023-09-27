@@ -65,7 +65,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 
 ### LoneChar
 - **Date Completed**: Completed 2 days ago.
-- **Link to Kata**: [CodeWars - LoneChar](#)
+- **Link to Kata**: [CodeWars - LoneChar](https://www.codewars.com/kata/5f885fa9f130ea00207c7dc8)
 
 ### MexicanWave
 - **Date Completed**: 2023-sep-18
