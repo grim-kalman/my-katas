@@ -55,6 +55,6 @@ public class LoneChar {
         System.out.println(loneliest("a b  c")); // Should return "b"
         System.out.println(loneliest("a bcs           d k")); // Should return "d"
         System.out.println(loneliest("     a  b  c de        ")); // Should return "b"
-        System.out.println(loneliest("'     meg      j b    n           d    ka  i f   c hl   '")); // Should return nd
+        System.out.println(loneliest("'     meg      j b    n           d    ka  i f   c hl   '")); // Should return "nd"
     }
 }
