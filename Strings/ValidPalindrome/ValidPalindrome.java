@@ -31,7 +31,7 @@ public class ValidPalindrome {
     s consists only of printable ASCII characters.
      */
     public static boolean isPalindrome(String s) {
-        String trimmedString = s.trim().toLowerCase().replaceAll("[^a-z]", "");
+        String trimmedString = s.trim().toLowerCase().replaceAll("[^a-z1-90]", "");
         String trimmedStringReverse = new StringBuilder(trimmedString).reverse().toString();
         return trimmedString.equals(trimmedStringReverse);
     }
@@ -40,5 +40,6 @@ public class ValidPalindrome {
         System.out.println(isPalindrome("A man, a plan, a canal: Panama")); // Should return true
         System.out.println(isPalindrome("race a car")); // Should return false
         System.out.println(isPalindrome(" ")); // Should return true
+        System.out.println(isPalindrome("0P")); // Should return false
     }
 }
