@@ -82,10 +82,3 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 ### StringSplit
 - **Date Completed**: 2023-sep-11
 - **Link to Kata**: [CodeWars - StringSplit](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001)
-
-## Getting Started
-
-To use or contribute to these katas, you can clone this repository to your local machine:
-
-```bash
-git clone https://github.com/yourusername/your-katas.git
