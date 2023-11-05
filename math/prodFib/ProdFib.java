@@ -3,7 +3,7 @@ package math.prodFib;
 public class ProdFib {
     /*
     Given the series of Fibonacci numbers (Fn) defined by the integer sequence:
-        0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ...
+    0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ...
 
     Where:
     F(n) = F(n-1) + F(n-2) with initial conditions F(0) = 0 and F(1) = 1.
