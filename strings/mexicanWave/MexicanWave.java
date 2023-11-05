@@ -21,12 +21,8 @@ public class MexicanWave {
     wave("hello") --> {"Hello", "hEllo", "heLlo", "helLo", "hellO"}
     */
     public static String[] wave(String string) {
-        // make and list of copies of the string with the same no of strings as chars
         List<String> stringList = Collections.nCopies(string.length(), string);
-
-        // stream the list and capitalize the successive char in each string but skip empty elements
         AtomicInteger index = new AtomicInteger();
-
         return stringList.stream()
                 .map(str ->
                         str.substring(0, index.get())
