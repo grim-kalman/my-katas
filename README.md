@@ -4,7 +4,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 
 ## Table of Contents
 - [DataStructures](#datastructures)
-  - [dataStructures.morseCodeDecoder.MorseCodeDecoder](#morsecodedecoder)
+  - [MorseCodeDecoder](#morsecodedecoder)
 - [math](#math)
   - [DigPow](#digpow)
   - [FindNextSquare](#findnextsquare)
@@ -24,7 +24,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
  
 ## DataStructures
 
-### dataStructures.morseCodeDecoder.MorseCodeDecoder
+### MorseCodeDecoder
 - **Date Completed**: 2023-sep-09
 - **Link to Kata**: [CodeWars - dataStructures.morseCodeDecoder.MorseCodeDecoder](https://www.codewars.com/kata/54b724efac3d5402db00065e)
 
