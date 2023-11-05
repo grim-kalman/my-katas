@@ -20,6 +20,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
   - [Order](#order)
   - [Printer](#printer)
   - [StringSplit](#stringsplit)
+  - [StringsEndsWith](#stringsendswith)
  
 ## DataStructures
 
@@ -82,3 +83,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 ### StringSplit
 - **Date Completed**: 2023-sep-11
 - **Link to Kata**: [CodeWars - StringSplit](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001)
+
+### StringsEndsWith
+- **Date Completed**: 2023-nov-05
+- **Link to Kata**: [CodeWars - StringsEndsWith](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)
