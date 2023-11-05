@@ -10,6 +10,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
   - [FindNextSquare](#findnextsquare)
   - [Narcissistic](#narcissistic)
   - [RowSumOddNumbers](#rowsumoddnumbers)
+  - [DescendingOrder](#descendingorder)
 - [strings](#strings)
   - [CamelCase](#camelcase)
   - [CountingDuplicates](#countingduplicates)
@@ -45,6 +46,10 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 ### RowSumOddNumbers
 - **Date Completed**: 2023-sep-09
 - **Link to Kata**: [CodeWars - RowSumOddNumbers](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064)
+
+### DescendingOrder
+- **Date Completed**: 2023-nov-05
+- **Link to Kata**: [CodeWars - DescendingOrder](https://www.codewars.com/kata/5467e4d82edf8bbf40000155)
 
 ## strings
 
