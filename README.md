@@ -11,6 +11,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
   - [Narcissistic](#narcissistic)
   - [RowSumOddNumbers](#rowsumoddnumbers)
   - [DescendingOrder](#descendingorder)
+  - [ProductofConsecutiveFibNumbers](#productofconsecutivefibnumbers)
 - [strings](#strings)
   - [CamelCase](#camelcase)
   - [CountingDuplicates](#countingduplicates)
@@ -27,7 +28,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 
 ### MorseCodeDecoder
 - **Date Completed**: 2023-sep-09
-- **Link to Kata**: [CodeWars - dataStructures.morseCodeDecoder.MorseCodeDecoder](https://www.codewars.com/kata/54b724efac3d5402db00065e)
+- **Link to Kata**: [CodeWars - MorseCodeDecoder](https://www.codewars.com/kata/54b724efac3d5402db00065e)
 
 ## math
 
@@ -50,6 +51,10 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 ### DescendingOrder
 - **Date Completed**: 2023-nov-05
 - **Link to Kata**: [CodeWars - DescendingOrder](https://www.codewars.com/kata/5467e4d82edf8bbf40000155)
+
+### ProductofConsecutiveFibNumbers
+- **Date Completed**: 2023-nov-05
+- **Link to Kata**: [CodeWars - ProductofConsecutiveFibNumbers](https://www.codewars.com/kata/5541f58a944b85ce6d00006a)
 
 ## strings
 
