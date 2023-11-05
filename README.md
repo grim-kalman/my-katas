@@ -4,13 +4,13 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 
 ## Table of Contents
 - [DataStructures](#datastructures)
-  - [MorseCodeDecoder](#morsecodedecoder)
-- [Math](#math)
+  - [dataStructures.morseCodeDecoder.MorseCodeDecoder](#morsecodedecoder)
+- [math](#math)
   - [DigPow](#digpow)
   - [FindNextSquare](#findnextsquare)
   - [Narcissistic](#narcissistic)
   - [RowSumOddNumbers](#rowsumoddnumbers)
-- [Strings](#strings)
+- [strings](#strings)
   - [CamelCase](#camelcase)
   - [CountingDuplicates](#countingduplicates)
   - [HighAndLow](#highandlow)
@@ -23,11 +23,11 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
  
 ## DataStructures
 
-### MorseCodeDecoder
+### dataStructures.morseCodeDecoder.MorseCodeDecoder
 - **Date Completed**: 2023-sep-09
-- **Link to Kata**: [CodeWars - MorseCodeDecoder](https://www.codewars.com/kata/54b724efac3d5402db00065e)
+- **Link to Kata**: [CodeWars - dataStructures.morseCodeDecoder.MorseCodeDecoder](https://www.codewars.com/kata/54b724efac3d5402db00065e)
 
-## Math
+## math
 
 ### DigPow
 - **Date Completed**: 2023-sep-09
@@ -45,7 +45,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 - **Date Completed**: 2023-sep-09
 - **Link to Kata**: [CodeWars - RowSumOddNumbers](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064)
 
-## Strings
+## strings
 
 ### CamelCase
 - **Date Completed**: 2023-sep-12
