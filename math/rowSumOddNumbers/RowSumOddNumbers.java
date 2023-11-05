@@ -17,11 +17,9 @@ public class RowSumOddNumbers {
     2 --> 3 + 5 = 8
     */
     public static int rowSumOddNumbers(int n) {
-        // Calculate the first number in the n:th row using the formula n^2 - (n - 1)
         int firstNumberInRow = (int) Math.pow(n, 2) - (n - 1);
         int sum = firstNumberInRow;
 
-        // Iterate through the row to find the sum
         for (int i = 1, nextNumberInRow = firstNumberInRow + 2; i < n; i++, nextNumberInRow += 2) {
             sum += nextNumberInRow;
         }

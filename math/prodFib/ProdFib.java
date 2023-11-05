@@ -1,5 +1,7 @@
 package math.prodFib;
 
+import java.util.Arrays;
+
 public class ProdFib {
     /*
     Given the series of Fibonacci numbers (Fn) defined by the integer sequence:
@@ -12,7 +14,8 @@ public class ProdFib {
     and finds two consecutive Fibonacci numbers, F(n) and F(n+1), such that:
     F(n) * F(n+1) = prod.
 
-    Your function should return an array, tuple, or any language-appropriate collection in the format:
+    Your function should return an array, tuple, or any language-appropriate collection in the
+    format:
     [F(n), F(n+1), true] or {F(n), F(n+1), 1} or (F(n), F(n+1), True)
 
     If no such consecutive Fibonacci numbers are found such that F(n) * F(n+1) = prod,
@@ -22,18 +25,28 @@ public class ProdFib {
     F(n) should be the smallest number such that F(n) * F(n+1) > prod.
 
     Examples: (Input --> Output)
-    productFib(714) --> should return [21, 34, true], {21, 34, 1}, or (21, 34, True) since 714 = 21 * 34
-
-    productFib(800) --> should return [34, 55, false], {34, 55, 0}, or (34, 55, False) since 21 * 34 < 800 < 34 * 55
+    714 --> [21, 34, true]
+    800 --> [34, 55, false]
     */
     public static long[] productFib(long prod) {
-        
-        return null;
+        long fibProd = 0;
+        long[] fibNums = new long[]{0, 1, 0};
+        while (fibProd < prod) {
+            fibNums[2] = fibNums[1];
+            fibNums[1] += fibNums[0];
+            fibNums[0] = fibNums[2];
+            fibProd = fibNums[0] * fibNums[1];
+        }
+        if (fibProd == prod) {
+            fibNums[2] = 1;
+        } else {
+            fibNums[2] = 0;
+        }
+        return fibNums;
     }
 
     public static void main(String[] args) {
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println(Arrays.toString(productFib(714))); // Should print [21, 34, 1]
+        System.out.println(Arrays.toString(productFib(800))); // Should print [34, 55, 0]
     }
 }
