@@ -32,7 +32,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 - **Link to Kata**: [CodeWars - MorseCodeDecoder](https://www.codewars.com/kata/54b724efac3d5402db00065e)
 
 ### PaginationHelper
-- **Date Completed**: 2023-sep-09
+- **Date Completed**: 2023-nov-05
 - **Link to Kata**: [CodeWars - PaginationHelper](https://www.codewars.com/kata/515bb423de843ea99400000a)
 
 ## math
