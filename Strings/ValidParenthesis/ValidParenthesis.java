@@ -1,10 +1,6 @@
 package Strings.ValidParenthesis;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class ValidParenthesis {
-
 
     /*
     Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if
@@ -32,34 +28,44 @@ public class ValidParenthesis {
     s consists of parentheses only '()[]{}'.
      */
     public boolean isValid(String s) {
-        // insikt 1: En laglig sträng måste vara jämnt
-        // insikt 2: En laglig sträng måste vara jämn efter raderandet av en typ av parantes
-        // insikt 3: ( [[ [{}] ]] ), [ ( (){} ) ], ( ([]{}()) ) ->
-        // Det finns alltid en mittpunkt av två typer: antingen självstängande eller inte. Om
-        // inte så måste omgivande två vara det.
-
-        // Strategi:
-        // Börja utifrån och "skala" "löken" innåt så att säga, gör detta tills de två yttersta
-        // skalen inte stämmer längre t.ex:
-        // ( ([]{}(())) )
-        //   ([]{}(()))
-        //    []{}(())
-        // Rekursivt?...
-
-
-        // base case: it closes it self
-
-        String[] stringArray = s.split("");
-        Queue<String> stringQueue = new LinkedList<>();
-
-        for (int i = 0; i<stringArray.length; i++) {
-            
+        if (s.isEmpty()) {
+            return true;
+        } else if (s.length() % 2 != 0) {
+            return false;
         }
-        
+
+        while (s.isEmpty() != true) {
+            boolean foundPair = false;
+            for (int i = 0; i < s.length() - 1; i++) {
+                if (
+                        (s.charAt(i) == '(' && s.charAt(i + 1) == ')') ||
+                        (s.charAt(i) == '[' && s.charAt(i + 1) == ']') ||
+                        (s.charAt(i) == '{' && s.charAt(i + 1) == '}')
+                ) {
+                    s = s.substring(0, i) + s.substring(i + 2);
+                    foundPair = true;
+                    break;
+                }
+            }
+            if (foundPair != true) {
+                return false;
+            }
+        }
         return true;
     }
 
     public static void main(String[] args) {
+        ValidParenthesis validator = new ValidParenthesis();
 
+        System.out.println("Test Case 1: " + validator.isValid("")); // Should return true
+        System.out.println("Test Case 2: " + validator.isValid("()")); // Should return true
+        System.out.println("Test Case 3: " + validator.isValid("(}")); // Should return false
+        System.out.println("Test Case 4: " + validator.isValid("()[]{}")); // Should return true
+        System.out.println("Test Case 5: " + validator.isValid("([)]")); // Should return false
+        System.out.println("Test Case 6: " + validator.isValid("(((()))){}[]")); // Should return true
+        System.out.println("Test Case 7: " + validator.isValid("(((()))){}[")); // Should return false
+        System.out.println("Test Case 8: " + validator.isValid("{[()]}")); // Should return true
+        System.out.println("Test Case 9: " + validator.isValid("{[()]()}")); // Should return true
+        System.out.println("Test Case 10: " + validator.isValid("{[()]}{")); // Should return false
     }
 }
