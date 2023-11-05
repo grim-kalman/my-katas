@@ -86,4 +86,4 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 
 ### StringsEndsWith
 - **Date Completed**: 2023-nov-05
-- **Link to Kata**: [CodeWars - StringsEndsWith](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)
+- **Link to Kata**: [CodeWars - StringsEndsWith](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)
