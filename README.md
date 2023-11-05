@@ -5,6 +5,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 ## Table of Contents
 - [DataStructures](#datastructures)
   - [MorseCodeDecoder](#morsecodedecoder)
+  - [PaginationHelper](#paginationhelper)
 - [math](#math)
   - [DigPow](#digpow)
   - [FindNextSquare](#findnextsquare)
@@ -29,6 +30,10 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 ### MorseCodeDecoder
 - **Date Completed**: 2023-sep-09
 - **Link to Kata**: [CodeWars - MorseCodeDecoder](https://www.codewars.com/kata/54b724efac3d5402db00065e)
+
+### PaginationHelper
+- **Date Completed**: 2023-sep-09
+- **Link to Kata**: [CodeWars - PaginationHelper](https://www.codewars.com/kata/515bb423de843ea99400000a)
 
 ## math
 
