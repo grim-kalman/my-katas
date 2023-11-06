@@ -12,7 +12,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
   - [Narcissistic](#narcissistic)
   - [RowSumOddNumbers](#rowsumoddnumbers)
   - [DescendingOrder](#descendingorder)
-  - [ProductofConsecutiveFibNumbers](#productofconsecutivefibnumbers)
+  - [ProductOfConsecutiveFibNumbers](#productofconsecutivefibnumbers)
 - [Strings](#strings)
   - [CamelCase](#camelcase)
   - [CountingDuplicates](#countingduplicates)
@@ -57,9 +57,9 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 - **Date Completed**: 2023-nov-05
 - **Link to Kata**: [CodeWars - DescendingOrder](https://www.codewars.com/kata/5467e4d82edf8bbf40000155)
 
-### ProductofConsecutiveFibNumbers
+### ProductOfConsecutiveFibNumbers
 - **Date Completed**: 2023-nov-05
-- **Link to Kata**: [CodeWars - ProductofConsecutiveFibNumbers](https://www.codewars.com/kata/5541f58a944b85ce6d00006a)
+- **Link to Kata**: [CodeWars - ProductOfConsecutiveFibNumbers](https://www.codewars.com/kata/5541f58a944b85ce6d00006a)
 
 ## strings
 
