@@ -3,17 +3,17 @@
 Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/) is a platform where developers can hone their coding skills by solving a variety of programming challenges known as "katas." Below is a list of katas I've completed, organized by category.
 
 ## Table of Contents
-- [DataStructures](#datastructures)
+- [Data Structures](#datastructures)
   - [MorseCodeDecoder](#morsecodedecoder)
   - [PaginationHelper](#paginationhelper)
-- [math](#math)
+- [Math](#math)
   - [DigPow](#digpow)
   - [FindNextSquare](#findnextsquare)
   - [Narcissistic](#narcissistic)
   - [RowSumOddNumbers](#rowsumoddnumbers)
   - [DescendingOrder](#descendingorder)
   - [ProductofConsecutiveFibNumbers](#productofconsecutivefibnumbers)
-- [strings](#strings)
+- [Strings](#strings)
   - [CamelCase](#camelcase)
   - [CountingDuplicates](#countingduplicates)
   - [HighAndLow](#highandlow)
