@@ -6,7 +6,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 - [Data Structures](#datastructures)
   - [MorseCodeDecoder](#morsecodedecoder)
   - [PaginationHelper](#paginationhelper)
-  - [TickTackToeChecker](#tickTackToeChecker)
+  - [TicTacToeChecker](#tickTackToeChecker)
 - [Math](#math)
   - [DigPow](#digpow)
   - [FindNextSquare](#findnextsquare)
