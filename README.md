@@ -25,6 +25,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
   - [Printer](#printer)
   - [StringSplit](#stringsplit)
   - [StringsEndsWith](#stringsendswith)
+  - [Rot13](#rot13)
  
 ## DataStructures
 
@@ -106,3 +107,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
 ### StringsEndsWith
 - **Date Completed**: 2023-nov-05
 - **Link to Kata**: [CodeWars - StringsEndsWith](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)
+
+### Rot13
+- **Date Completed**: 2023-dec-06
+- **Link to Kata**: [CodeWars - Rot13](https://www.codewars.com/kata/530e15517bc88ac656000716)
