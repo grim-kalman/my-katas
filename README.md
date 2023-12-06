@@ -26,7 +26,7 @@ Welcome to my collection of CodeWars katas! [CodeWars](https://www.codewars.com/
   - [StringSplit](#stringsplit)
   - [StringsEndsWith](#stringsendswith)
  
-## DataStructures
+## dataStructures
 
 ### MorseCodeDecoder
 - **Date Completed**: 2023-sep-09

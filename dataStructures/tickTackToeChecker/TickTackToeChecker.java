@@ -1,4 +1,4 @@
-package DataStructures.tickTackToeChecker;
+package dataStructures.tickTackToeChecker;
 
 import java.util.Arrays;
 
